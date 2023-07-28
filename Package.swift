@@ -18,12 +18,12 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "SwitchbardSDK",
+            name: "SwitchboardSDK",
             url: "https://switchboard-sdk-ios.s3.amazonaws.com/develop/SwitchboardSDK.xcframework.zip",
             checksum: "f93430a7e6a8eb670c329649894445a1bd64b6c53d8c13aa034993a8c8c2e588"
         ),
         .binaryTarget(
-            name: "SwitchbardUI",
+            name: "SwitchboardUI",
             url: "https://switchboard-sdk-ios.s3.amazonaws.com/develop/SwitchboardUI.xcframework.zip",
             checksum: "703b064f2af8cdf48b9f3df618c134247368cb45add4e7ee6a7024e2660653a8"
         ),
