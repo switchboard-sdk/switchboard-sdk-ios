@@ -20,32 +20,32 @@ let package = Package(
         .binaryTarget(
             name: "SwitchboardSDK",
             url: "https://switchboard-sdk-ios.s3.amazonaws.com/develop/SwitchboardSDK.xcframework.zip",
-            checksum: "9d246a4f462b50f657906f030a19f9133471396d8c3753e9af7a1510be25a084"
+            checksum: "10101251f07f16d8929819a3272b7aa4dff97e50726d7bbb48869bc9f4c7a4ea"
         ),
         .binaryTarget(
             name: "SwitchboardUI",
             url: "https://switchboard-sdk-ios.s3.amazonaws.com/develop/SwitchboardUI.xcframework.zip",
-            checksum: "f589c32896e3d059988bba32a1199df77eb20d2a0afed99d67a24e560f8f54b8"
+            checksum: "ac04d1c69733593ad4bd3e4feac6318a1b1f11355b0ad4465479448522cd60c1"
         ),
         .binaryTarget(
             name: "SwitchboardAudioEffects",
             url: "https://switchboard-sdk-ios.s3.amazonaws.com/develop/SwitchboardAudioEffects.xcframework.zip",
-            checksum: "bb425edb72b633e7b900325abb733232cdd6603246746782f8d5817589b0d8c8"
+            checksum: "9ec8e92fe64823ce068d09184e78a01dfef97aaf15b1c73cb0175c10679780ba"
         ),
         .binaryTarget(
             name: "SwitchboardAgora",
             url: "https://switchboard-sdk-ios.s3.amazonaws.com/develop/SwitchboardAgora.xcframework.zip",
-            checksum: "550f5fa0cd4403f9f64d167e12b96501bc7ed833de4f784eb4716249c1fd263c"
+            checksum: "0831d30da1045ec969fb106a8a4f4020e76f2ccfaac7b92718241ffa9fa655d9"
         ),
         .binaryTarget(
             name: "SwitchboardRNNoise",
             url: "https://switchboard-sdk-ios.s3.amazonaws.com/develop/SwitchboardRNNoise.xcframework.zip",
-            checksum: "b1b30a29de86b8111bd1463b46f75d09defb94c09bb0b4599f373ffa65d5f235"
+            checksum: "7ea210418ac285c7164837ca11b965c8e8e811cca9946d94c589acaf62dc7a1c"
         ),
         .binaryTarget(
             name: "SwitchboardSuperpowered",
             url: "https://switchboard-sdk-ios.s3.amazonaws.com/develop/SwitchboardSuperpowered.xcframework.zip",
-            checksum: "0a724451d60a39dbd87fa454413ae6c6d883a059c9d6f8fc18d69e4126befbed"
+            checksum: "ca25aed7e1764cb85c7efc3a142c81b0b9d64567fadba43dc5de64c7906dfc95"
         ),
     ]
 )
