@@ -1,0 +1,634 @@
+Synervoz Communications Inc. 
+6 Windermere Drive, 
+Ingleside, ON, Canada, KOC1M0
+
+licensing@synervoz.com 
++1 718 593 4471
+
+This license can be found at https://switchboard.audio/licensing 
+
+
+SWITCHBOARD SDK MASTER LICENSE AGREEMENT
+
+Effective Date: July 1, 2023
+
+INTRODUCTION
+
+Synervoz Communications Inc. develops and markets the Switchboard SDK. A list 
+of its features is available at: https://docs.switchboard.audio/ 
+
+To make use of the Switchboard SDK, the following license types are available:
+
+1. Free Prototyping License to the Switchboard SDK, the "Prototyping License"
+2. Commercial Licenses to the Switchboard SDK, "Commercial Licenses"
+3. Example Code License, "Example Code License".
+
+BACKGROUND
+
+The Prototyping License is meant to be used to build and test new 
+applications, or to test new feature ideas for existing applications 
+(collectively, "New Projects"). Commercial Licenses are required when New 
+Projects no longer meet the limitations set out in the Free Prototyping 
+License. 
+
+No support or guarantees are included with the Prototyping License. Support, 
+customization, and other requests are offered as part of Synervoz's consulting 
+services business, as well as through our Commercial Licenses. 
+
+Commercial Licenses are required when one or more limitations of the Free 
+Prototyping License is exceeded. Commercial Licenses are customized according 
+to the customer's use case and requirements and require you to get in touch. 
+The Prototyping License limitations are designed to allow for experimentation, 
+evaluation, and to help with decision making. The limitations are not designed 
+to allow for use of the Switchboard SDK in commercial products at scale. 
+
+Synervoz makes available certain example code and sample apps to illustrate 
+how the Switchboard SDK can be used in different types of projects. Unless 
+otherwise noted, open source license files are provided with these example 
+projects. These are distinct from licenses to the Switchboard SDK, which are 
+governed by this Master License Agreement. If you use any example code or 
+sample apps provided by Synervoz, you need to read these license files as 
+well. 
+
+Furthermore, the Switchboard SDK contains extensions to third party SDKs and 
+services that have their own licensing requirements. Synervoz makes no 
+representation as to the licensing requirements for any third party 
+extensions. It is your responsibility to review these requirements yourself. 
+
+Developers are free to experiment with the Switchboard SDK and to understand 
+its capabilities and limitations prior to reaching out to Synervoz to discuss 
+a Commercial License. When you've determined that the Switchboard SDK could be 
+a good fit for your project and you are ready to discuss a Commercial License, 
+please contact: 
+
+licensing@synervoz.com 
+
+Unauthorized and/or unlicensed usage of the Switchboard SDK or any other 
+Synervoz technologies may result in interruption of service without notice. 
+Synervoz is not required to provide notice of service interruption.  
+
+
+LICENSE DETAILS AND DESCRIPTIONS
+
+Prototyping License:
+
+The Prototyping License is a free license to use the Switchboard SDK for 
+experimentation and R&D purposes. It allows for public release and testing, 
+including on the iOS App Store or Google Play Store, however, it is limited as 
+follows: 
+
+Limited to a maximum of 1,000 app-installs as determined by Synervoz's 
+analytics. 
+Synervoz reserves attribution rights including the right to use App 
+Developer's name and logo on its website.
+
+Once an app breaches the 1,000 app-install mark, Synervoz reserves the right 
+to disable usage and the Switchboard SDK may trigger this automatically.
+
+Commercial Licenses
+Commercial requirements have licensing fees to be negotiated with Synervoz. 
+You must get in touch via with Synervoz via licensing@synervoz.com if the 
+limitations of the Prototyping License no longer apply. 
+
+Example Code License
+Synervoz makes available certain example code and sample apps to illustrate 
+how the Switchboard SDK can be used in different types of projects. Unless 
+otherwise noted, license files are provided with these example projects. These 
+are distinct from licenses to the Switchboard SDK, which are governed by this 
+Master License Agreement. If you use any example code or sample apps provided 
+by Synervoz, you need to read these license files as well. 
+
+If you are using one of our example apps that contains the Switchboard SDK, 
+you are also bound to this SWITCHBOARD SDK MASTER LICENSE AGREEMENT. 
+
+WHAT IF I HAVE MORE THAN ONE APPLICATION?
+
+You must have a license for each Application (as defined below), regardless of 
+how you subdivide or commercialize your technology. Each distributed 
+application must have its own license. 
+
+PREAMBLE
+
+Before downloading or using the Switchboard SDKs, you are required to read, 
+understand and agree to these terms. (Capitalized terms not immediately 
+defined are located in Section 10 below.)
+
+This SWITCHBOARD SDK MASTER LICENSE AGREEMENT (this "Agreement") is a legal 
+agreement between you individually if you are agreeing to it in your own 
+capacity, or if you are authorized to acquire the Switchboard SDK on behalf of 
+your company or organization, between the entity for whose benefit you act 
+("You" or "Licensee") and Synervoz Communications Inc. ("Synervoz").
+
+By clicking on the appropriate button below, or by downloading, installing, 
+activating or using the Switchboard SDK, you are agreeing to be bound by the 
+terms of this Agreement. If you have 
+any questions or concerns about the terms of this Agreement, please contact us 
+at 
+
+licensing@synervoz.com 
+
+If you decide you are unwilling to agree to the terms of this Agreement, you 
+have no right to use 
+the Switchboard SDK and furthermore acknowledge you have no expectation of 
+uninterrupted 
+ongoing service and access to any Synervoz technology.
+
+The most current version of the SWITCHBOARD SDK MASTER LICENSE AGREEMENT will 
+be posted at 
+
+https://switchboard.audio/licensing
+
+If the Current Version has a more recent effective date than this document, 
+then this document is replaced by the Current Version and by downloading, 
+installing, activating or using the Switchboard SDK in any capacity, you are 
+agreeing to be bound by the Current Version. You may not use an old version of 
+the Switchboard SDK if you have not agreed to the Current Version.
+
+Even if you obtained a copy of an older version of the Switchboard SDK prior 
+to reading these terms, you must agree to the Current Version to continue 
+using the older version of the Switchboard SDK. 
+
+STANDARD TERMS AND CONDITIONS
+
+
+1.1 License Grant.
+
+(a) In accordance with the terms herein, Synervoz grants  to  Licensee  a  
+limited,  
+non-exclusive,  non- transferable, non-sublicensable license to install and 
+use a reasonable  
+number  of  copies  of  the  applicable Switchboard SDK to be used for an 
+Application solely in the manner described in the documentation contained in 
+the Switchboard SDK, if any.
+
+(b) Licensee may distribute Applications provided that, except as expressly 
+permitted herein, 
+Licensee does not directly or indirectly market, rent, distribute, transfer, 
+license, sublicense, 
+sell, or furnish to any third party all or any part of, the Switchboard SDK or 
+copies of any part 
+thereof including in conjunction with or as part of Applications.  For  
+greater  clarity  the  
+rights  granted hereunder are solely with respect to Licensee's use of the 
+Switchboard SDK and in no event shall there be an implied license under any 
+Synervoz intellectual property rights. Licensee may not copy the Switchboard 
+SDK or any portion thereof except as expressly permitted herein. For the 
+purposes of this provision "copy" shall not include copying of statements and 
+instructions of the Switchboard SDK or any portion thereof that naturally 
+occurs during normal program execution when used in accordance with and for 
+the purposes described in the documentation or in the course of making 
+unmodified copies of the Switchboard SDK or documentation as part of the 
+regular back-up of the Switchboard SDK in accordance with standard industry 
+business practices. Notwithstanding  the  foregoing,  if  Synervoz  has 
+terminated  any  license  granted  to  Licensee  for  the Switchboard SDK, no 
+right to use the Switchboard SDK is granted to Licensee hereunder.
+
+(c) To the extent that Distributable Source Code is provided as part of the 
+Switchboard SDK, 
+Licensee may use, modify and compile the Distributable Source Code solely for 
+the purposes of 
+developing Licensee's Applications. Notwithstanding the foregoing, Licensee 
+may not modify any header files included in the Switchboard SDK.
+
+(d) Licensee must require users of Licensee's Applications, in the license 
+terms applicable to 
+Licensee's Applications, to agree not to Reverse Engineer Licensee's 
+Applications (including the 
+Switchboard SDK), except to the extent that Licensee is expressly precluded by 
+law from imposing such restriction.
+
+(e) Notwithstanding anything contained herein to the contrary,  Licensee  may  
+not  combine,  
+distribute,  or otherwise use the Switchboard SDK with any code or other 
+content which is covered by a license that would directly or indirectly 
+require that all or part of the Switchboard SDK be governed under any terms 
+other than those of this Agreement.
+
+(f) Synervoz requires use of a license key for use of the Switchboard SDK, 
+which use shall be determined by Synervoz in its sole discretion. Licensee 
+agrees to download and validate such 
+license key in order to use the Switchboard SDK and provide accurate and 
+complete information as requested by Synervoz. In the event a license key is 
+required for the Switchboard SDK, you may not continue to use the Switchboard 
+SDK even if it is a prior version (including a version that did not require  a 
+ license  key)  unless  you  receive  written permissions from Synervoz. You 
+acknowledge any or all Switchboard SDKs may require use of a licensee key and 
+the applicable Switchboard SDK may not work without such license key. Synervoz 
+does not track personally identifiable information ("PII") but does monitor 
+usage for unauthorized or 
+illegal usage. Synervoz makes no representation that it will be able to detect 
+nor does it 
+covenant to inform you if it discovers misuse of PII. 
+
+2.1 Open Source. The Switchboard SDK may be embedded into open-source, 
+source-code and/or source-code repo, provided such use in compliance with the 
+terms of this Agreement.
+
+(a) Licensee acknowledges that if the Switchboard SDK is used in this manner, 
+the 
+following limitations apply: (i) Synervoz and its Switchboard SDK must be 
+mentioned in the README, and (ii) a copy of this Agreement must be included.
+
+2.2 Use. Licensee is responsible for all activities with respect to the 
+Switchboard SDK 
+undertaken by Licensee and Licensee's Authorized Users and will ensure that:
+
+(a) the Switchboard SDK and Application(s) will be used in accordance with 
+this Agreement, all 
+applicable laws and regulations, and the documentation provided by Synervoz;
+
+(b) the Switchboard SDK (or components thereof) will not be sublicensed or 
+incorporated into any other platform or SDK or API or embedded device, without 
+written permission and license from Synervoz;
+
+(c) Licensee has the right and authority to enter into this Agreement, either 
+on Licensee's own 
+behalf or on behalf of a company or other entity, and Licensee, if an 
+individual, is over the age 
+of majority;
+
+(d) Licensee and Licensee's Authorized Users will not knowingly develop or 
+distribute Applications or make any products, services or content available 
+through Licensee's Applications, the use of which in isolation or with any 
+other software, system, network, or data would contain functionality that 
+could be used for inappropriate or improper purposes or interfere with the 
+proper operation of, degrade, cause damage to or adversely affect any 
+software, hardware, services, system, network or data used by any person 
+including Synervoz, or otherwise have a detrimental effect upon Synervoz, or 
+any of its customers or products or services, and Licensee will immediately 
+cease any such activity;
+
+(e) Licensee and Licensee's Authorized Users will not use the Switchboard SDK 
+to develop any 
+Applications or make any products, services or content, which are intended to 
+be used to commit or would be used predominantly to commit any crime or other 
+illegal or tortious acts and without limiting the foregoing, Applications will 
+not contain or link to any content, or perform any 
+function, that is illegal (e.g. against any criminal, civil or statutory law 
+or regulation),  any  
+libel  or  defamation,  obscene, objectionable,  harassing,  hateful,  
+profane,  indecent, 
+offensive,  breach  of  privacy,  infringement  or misappropriation of any 
+intellectual property 
+rights and/or other proprietary rights of any party (including, without 
+limitation, unlawfully 
+circumventing any digital rights management protections);
+
+(f) Applications and any products, services or content made available through 
+Licensee's 
+Applications will not contain any: (i) virus, Trojan horse, worm, backdoor, 
+shutdown mechanism,  
+malicious  code,  sniffer,  bot,  drop  dead mechanism, or spyware; or (ii) 
+any other software, 
+code, or program that is likely to or is intended to: (A) have an adverse 
+impact on the performance of, (B) disable, corrupt, or cause damage to, or (C) 
+cause or facilitate unauthorized access to or deny authorized access to, or 
+cause to be used for any unauthorized or inappropriate purposes, any software, 
+hardware, network, services, systems, or data;
+
+(g) Licensee will not develop or distribute any Application or make available 
+any products, services or content available through any Application that 
+infringes any Synervoz,  affiliate or  third  party  copyrights, trademarks, 
+industrial design rights, rights of privacy and publicity, trade secrets, 
+patents, or other proprietary or legal rights;
+
+(h) Applications that offer or are used in conjunction with location based 
+services or 
+functionality will obtain consent before Licensee collects, transmits, 
+processes, displays, 
+discloses, maintains, or uses location data in any manner whatsoever, and 
+notwithstanding the 
+generality of the foregoing Licensee shall comply with applicable privacy and  
+data  protection  
+legislation  in  respect  of  such information; and
+
+(i) Licensee will ensure that the Applications and all development work 
+directly or indirectly 
+related to the Switchboard SDK shall be performed and provided in a 
+professional and highly 
+competent manner, to the best and full limit of Licensee's (and its Authorized 
+User's) abilities 
+and in accordance with the highest standards in the Licensee's industry.
+
+2.3 Export Restrictions. Licensee acknowledges that the Switchboard SDK may 
+include software that may be subject  to  export,  import,  and/or  use  
+controls  by governmental authorities by way of law or regulation. Licensee 
+agrees that the Switchboard SDK will not be exported, imported, used, 
+transferred, or re-exported except in compliance with the laws and regulations 
+of the national and/or other government authorities with authority over the 
+country(ies)  and/or  territory(ies) from  which the Switchboard SDK is being 
+exported or to which the Switchboard SDK is being imported. Notwithstanding 
+any agreement with a third-party or any provision of law, regulation or 
+policy, if Licensee is any agency of the government  of  the  United  States  
+of  America, then Licensee's rights in respect of the Switchboard SDK shall 
+not exceed the rights provided under this Agreement, unless expressly agreed 
+upon by Synervoz in a separate written agreement.
+
+3.1 Compensation.
+
+(a) Available Licenses; Marketing and Fees; Press Release.
+
+(i) Prototyping License Requirements: There is no fee for the use of the 
+Switchboard SDK, if and only if, Licensee's use of the Switchboard SDK is in a 
+Software Application that has fewer than 1,000 app-installs.
+
+For the purpose of determining the amount of installs of any Application, the 
+aggregate number of installs across target operating systems/platforms shall 
+be used.
+
+For example, if "Your App" has 1,000 app installs on iOS and 2,000 app 
+installs on Android, then Your App shall have 3,000 app installs for purposes 
+of this Agreement.
+
+Synervoz may cancel or modify the Prototyping License for the Switchboard SDK 
+set forth in 
+this section at any time with or without notice.
+
+However, the Switchboard SDK is not open-source and the Licensee is still 
+subject to all of the 
+terms as set forth on the  first  page  of  this  Agreement.  Furthermore, 
+Synervoz may make qualification determinations of the Prototyping License 
+requirements in its sole discretion.
+
+(ii) Commercial Licenses: If Licensee is using the Switchboard SDK in an 
+application or combination of applications with more than 1,000 app-installs 
+(including all versions of the Software Application) or otherwise does not 
+qualify for the Prototyping License pursuant to Section 3.1(a)(i) above, prior 
+to use of the Switchboard SDK the Licensee must purchase a Commercial License 
+from Synervoz by contacting: 
+
+licensing@synervoz.com  
+
+A Commercial License needs to be agreed and paid prior to being valid. 
+
+Licensee acknowledges that distribution of an Application or other technology 
+using 
+the Switchboard SDK with more than 1,000 app installs without a fully paid up 
+Commercial License renders any licenses  granted  by Synervoz  hereunder  void 
+ and  invalid.  Licensee acknowledges it has no expectation of uninterrupted 
+ongoing service and access to Synervoz technology (including without 
+limitation the Switchboard SDK) if such licenses granted by Synervoz hereunder 
+are void and invalid, with or without notice, due to Licensee's failure to 
+comply with the terms of this Agreement.
+
+(iii) Example Code License: Synervoz makes available certain example code and 
+sample apps to illustrate how the Switchboard SDK can be used in different 
+types of projects. Unless otherwise noted, license files are provided with 
+these example projects. These are distinct from licenses to the Switchboard 
+SDK, which are governed by this Master License Agreement. If you use any 
+example code or sample apps provided by Synervoz, you need to read these 
+license files as well. 
+
+If you are using one of our example apps that contains the Switchboard SDK, 
+you are also bound to this SWITCHBOARD SDK MASTER LICENSE AGREEMENT. 
+
+(b) Attribution. Licensee will comply with Section 5.2 to the exclusive 
+approval of Synervoz. 
+Synervoz may use Licensee's and/or its Application's name and logo for 
+external marketing, such as on its website and press releases.
+
+4.1 Intellectual Property.
+
+(a) This Agreement does not transfer or assign to Licensee, any intellectual 
+property right 
+including any patent, design, industrial design, trademark, service mark, 
+copyright or rights in 
+any confidential information or trade secrets, in or related to the 
+Switchboard SDK or any part thereof. The Switchboard SDK and all copies 
+thereof remain the property of Synervoz and are only licensed under this 
+Agreement. Licensee acknowledges that there are no implied licenses granted 
+under this Agreement, and all rights, save for those license rights expressly 
+granted to Licensee hereunder, shall remain with Synervoz. Licensee agrees 
+that nothing in this Agreement shall adversely affect any rights and recourse 
+to remedies, including  without  limitation, injunctive  relief  that Synervoz 
+may have under any applicable laws relating to the protection of Synevoz's 
+intellectual property or other rights.
+
+(b) Any feedback or suggestions provided to Synervoz by Licensee relating to 
+the Switchboard SDK, shall be owned by Synervoz and Licensee hereby assigns to 
+Synervoz all such feedback 
+and suggestions.
+
+5.1 Confidentiality. Other than as incorporated in the Applications' 
+documentation, Licensee shall not sell, transfer, publish, disclose, display 
+or otherwise make available the Switchboard SDK or copies thereof to others. 
+Licensee shall use reasonable efforts to secure and protect the 
+Switchboard SDK, documentation and copies thereof and to take appropriate 
+action by instruction or agreement with its Authorized Users.
+
+5.2 Synervoz Attribution for Use of Switchboard SDK with Prototyping License. 
+To maintain continued service of the Switchboard SDK under a Prototyping 
+License, Licensee agrees to place the following notices in the credits for any 
+Software Application. 
+
+"[Software  Application] uses the Switchboard SDK by Synervoz (Synervoz.com)
+
+5.3 Marketing. Licensee agrees that Synervoz may refer to Licensee by trade 
+name and trademark, and may briefly describe Licensee's use of the Switchboard 
+SDK in marketing and on its website.
+
+6.1 Warranty. Except as expressly set forth in this agreement, the Switchboard 
+SDK is provided 
+"As Is" without warranty of any kind. Except to the extent required by 
+applicable law, Synervoz disclaims all warranties, whether express, implied or 
+statutory, regarding the Switchboard SDK, 
+including without limitation any and all implied warranties of 
+merchantability, accuracy, results of use, reliability, fitness for a 
+particular purpose, title, interference with quiet enjoyment, and 
+non-infringement of third-party rights. Further, Synervoz disclaims any 
+warranty that Licensee's use of the Switchboard SDK will be uninterrupted or 
+error free.
+
+6.2 Exclusion of Liability. In no event shall Synervoz be liable for any 
+damages whatsoever directly or indirectly arising out of or related to this 
+agreement or in connection with the transactions contemplated by this 
+agreement or any products, services or content made available through 
+Licensee's applications, whether or not such damages could reasonably be 
+foreseen or their likelihood has been disclosed to Synervoz. In no event shall 
+any officer, director, employee, agent, supplier, independent contractor, or 
+any merchants of record of Synervoz or any Synervoz affiliate have any 
+liability arising from or related to this agreement. 
+
+6.3 Limitation of Liability. In no event shall Synervoz be liable for any 
+damages that exceed, 
+in the aggregate for all claims arising from or related to this Agreement, the 
+sum of any amounts 
+Licensee has paid Synervoz for the Switchboard SDK from which such claim arose.
+
+6.4 Exceptions. Some jurisdictions do not allow limitations or exclusions of 
+certain types of 
+damages and/or warranties and conditions. The limitations, exclusions and 
+disclaimers set forth in this Agreement shall not apply if and only if and to 
+the extent that the laws of a competent 
+jurisdiction require liabilities beyond and despite these limitations, 
+exclusions and disclaimers.
+
+7.1 Indemnification by Licensee. Licensee shall indemnify, hold harmless, and 
+if requested by 
+Synervoz, defend Synervoz, Synervoz's affiliates, agents and their respective 
+successors, assigns,  directors,  officers, employees  and  independent  
+contractors  (each  a "Synervoz Indemnified Party") from any claims, costs, 
+damages, losses, settlement fees, and expenses (including  without  limitation 
+ attorney  fees  and disbursements)  incurred  directly or  indirectly  by  a 
+Synervoz Indemnified Party as a result of Licensee's or Licensee's Authorized 
+Users' breach of this Agreement and/or as a result of any third party claim, 
+proceeding, suit, judgment, settlement, or cause of action ("Claim"): (a) 
+alleging the infringement, violation or misappropriation of any intellectual 
+property right including a patent, design, industrial design, copyright, trade 
+secret or trademark or other proprietary right by: (a) Licensee's 
+Application(s) or the  use  thereof,  or  the  combination  of  Licensee's 
+Application(s) with the Switchboard SDK or any other portion thereof with any 
+hardware, software, or system, or service; or (b) otherwise related to or 
+arising from Licensee or Licensee's Authorized Users' use of the Switchboard 
+SDK (except for any third party claim based solely on Synervoz technology 
+included in the Switchboard SDK) or any use or distribution of Licensee's 
+Applications (including Licensee's development of Applications).
+
+8.1  Term.  This  Agreement  shall  be  effective  upon Licensee's agreement 
+to be bound by the 
+terms of this Agreement, (as manifested by the conduct described in the first 
+paragraph above) and shall end upon termination of this Agreement in 
+accordance with the provisions set out herein, or in the case of a Commercial 
+License, upon the end of the agreed-to license term for 
+such Commercial License, as applicable.
+
+Upon the termination of this Agreement, or applicable license term,the license 
+shall immediately 
+terminate and Licensee shall promptly stop all use of the Switchboard SDK and 
+delete all such copies.
+
+8.2 Termination. Licensee may terminate this Agreement at will and without 
+notice for any reason whatsoever.
+
+(a) If Licensee or any Authorized User breaches any provision of this 
+Agreement, Synervoz may terminate this Agreement and the license granted 
+hereunder. Licensee will be deemed to be in breach of this Agreement if: (1) 
+Licensee fails to comply with or perform a term or condition herein; or (2) 
+Licensee or any Authorized User interferes  with  Synervoz's  customer service 
+ or business operations; or (3) Licensee materially breaches any  other  
+agreement  that Licensee  may  have  with Synervoz. Synervoz may terminate at 
+any time for convenience, and shall provide a pro rata refund for amounts paid 
+for unused periods, and only in this circumstance. No  remedy  herein  
+conferred  upon Synervoz is intended to be, nor shall it be construed to 
+be, exclusive of any other remedy provided herein or as allowed by law or in 
+equity, but all such 
+remedies shall be cumulative. In the event of the termination of this 
+Agreement pursuant to this 
+Section 8.2 for cause, Licensee shall pay to Synervoz all attorney fees, 
+collection fees, and related  expenses,  expended  or  incurred  by Synervoz 
+in the enforcement of any right or privilege hereunder.
+
+(b) Section 3 (to the extent any amounts are owed to Synevoz), 4, 5, 6, 7, 8, 
+and 9 hereof 
+shall survive any termination of this Agreement.
+
+9.1 Amendment/Modification. This Agreement is the complete  and  exclusive  
+statement  of  the  
+agreement between the parties, which supersedes and merges all prior 
+proposals, understandings and all other agreements, oral and written, between 
+the parties relating to this Agreement. This Agreement can be modified or 
+amended upon the mutual written consent of both the parties.
+
+9.2 Non-Circumvention. The parties of this Agreement acknowledge that no 
+effort shall be made to circumvent its terms in an attempt to gain fees, 
+remunerations, or considerations to the benefit of any of the parties of this 
+Agreement, while excluding equal or agreed to benefits to any of the other 
+parties.
+
+9.3 Governing Law. This Agreement and performance hereunder shall be governed 
+by the laws of the the province of Ontario, Canada. The parties agree that any 
+litigation arising out of or related to this Agreement must be brought in a 
+court located in Ontario, Canada, as the exclusive and mandatory venue and 
+jurisdiction for any litigation arising out of or related to this Agreement.
+
+9.4 Class Action Waiver. Licensee agrees not to bring or participate in a 
+class or representative 
+action, private attorney general action, or collective arbitration related to 
+the Switchboard SDK or this Agreement.
+
+9.5 Severability. If any provision of this Agreement is invalid under any 
+applicable statute or 
+rule of law, it is to that extent to be deemed omitted.
+
+9.6 Assignment. The Licensee may not assign or sub- license, without the prior 
+written consent of Synervoz, its rights, duties or obligations under this 
+Agreement to any person or entity, in 
+whole or in part. Synervoz may assign this agreement without the prior written 
+consent of 
+Licensee.
+
+9.7 Attorneys Fees. In the event of dispute between the parties hereto 
+regarding this Agreement, the prevailing party shall be entitled to recover 
+reasonable attorneys fees incurred in connection with the dispute in addition 
+to any other relief to which it may be entitled.
+
+9.8 Waiver. The waiver or failure of Synervoz to exercise in any respect any 
+right provided for herein shall not be deemed a waiver of any further right 
+hereunder.
+
+9.9 Relationship of Parties. The parties are not employees, agents, partners 
+or joint venturers of 
+each other. Neither party shall have the right to enter into any agreement on 
+behalf of the other.
+
+9.10 Headings and Titles. The headings and titles of this Agreement are for 
+convenience only and are not intended to define, limit or construe the 
+contents of the various sections.
+
+10.1 Defined Terms.
+
+(a) "API" means an application programming interface.
+
+(b)  "Application"  means  either  an  Embedded/Pre- 
+bundled/Pre-Installed/Platform Application or a Software Application.
+
+(c)  "Authorized Users" means: (i) any of Licensee's employees; or (b) any 
+consultants, independent contractors and any other persons Licensee authorizes 
+to use or to whom Licensee  otherwise  makes available the Switchboard SDK, in 
+each case to use on Licensee's behalf to develop Applications.
+
+(d)  "Distributable  Source  Code"  means certain application templates, code 
+stubs, code 
+snippets, example applications, sample code and code fragments in source code 
+form either included as part of the Switchboard SDK or otherwise provided to 
+Licensee.
+
+(e)  "Embedded  Application"  means  any  software application or system that 
+may permanently 
+reside in an industrial or consumer device or any other type of technical 
+equipment  (e.g.,  wearable/hardware companies  and OEMs), developed (or 
+repackaged) by Licensee and which incorporates the Synervoz SDK. For the use 
+of this license, Embedded Application also means "Pre-Bundled" or 
+"Pre-Installed" or "Platform" software applications. 
+
+(f) "Reverse Engineer" includes, without limitation, any act of reverse 
+engineering, translating, 
+disassembling, decompiling, decrypting or deconstructing (including any aspect 
+of "dumping of 
+RAM/ROM or persistent storage", "cable or wireless link sniffing", or "black 
+box" reverse 
+engineering) data, software (including interfaces, protocols, and any other 
+data included in or 
+used in conjunction with programs that may or may not technically be 
+considered software code), service, or hardware or any method or process of 
+obtaining or converting any information, data or software from one form into a 
+human-readable form.
+
+(g) "Software Application" means a software application that consumers can 
+install on their 
+personal device (e.g., through an app store or via download), developed (or 
+repackaged) by Licensee and which incorporates the Switchboard SDK.
+
+(h) "SDK" means any programming package (including any APIs, programming tools 
+or documentation) that enables the development of applications for any type of 
+platform, framework or system.
+
+(i) "Switchboard SDK" means any version of an SDK developed by Synervoz, 
+including all respective software (including  programs,  tools,  sample  code, 
+ templates, libraries, and interfaces), updates, APIs, information, data, 
+files, documentation, and other materials, whether tangible or intangible, in 
+whatever form or medium (including on- line tools), provided to Licensee at 
+any time, either by way of downloading from Synervoz or otherwise provided to 
+Licensee, for any development purposes (unless such materials are provided 
+pursuant to a separate license agreement for such materials by Synervoz and/or 
+its affiliates).
