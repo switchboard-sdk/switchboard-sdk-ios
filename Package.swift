@@ -57,5 +57,10 @@ let package = Package(
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/1.9.0/ios/SwitchboardAmazonIVSRealTime.xcframework.zip",
             checksum: "145065fa84b8847cf356b0fbe0af8f2ef2cef1175199908ab6673a845f219d24"
         ),
+        .binaryTarget(
+            name: "SwitchboardVoicemod",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/1.9.0/ios/SwitchboardVoicemod.xcframework.zip",
+            checksum: "01456af8a65a728217b0207cd585a04221c18e795c440b64e70768875b76778a"
+        ),
     ]
 )
