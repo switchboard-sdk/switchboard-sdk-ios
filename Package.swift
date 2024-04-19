@@ -60,7 +60,7 @@ let package = Package(
         .binaryTarget(
             name: "SwitchboardVoicemod",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/1.9.0/ios/SwitchboardVoicemod.xcframework.zip",
-            checksum: "01456af8a65a728217b0207cd585a04221c18e795c440b64e70768875b76778a"
+            checksum: "4a55562edb4c3a79923b3836006ac362fd2f9ad5667b3bfa4769f1a691ca931b"
         ),
     ]
 )
