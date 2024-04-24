@@ -12,7 +12,10 @@ let package = Package(
         .library(name: "SwitchboardAudioEffects", targets: ["SwitchboardAudioEffects"]),
         .library(name: "SwitchboardAgora", targets: ["SwitchboardAgora"]),
         .library(name: "SwitchboardRNNoise", targets: ["SwitchboardRNNoise"]),
-        .library(name: "SwitchboardSuperpowered", targets: ["SwitchboardSuperpowered"])
+        .library(name: "SwitchboardSuperpowered", targets: ["SwitchboardSuperpowered"]),
+        .library(name: "SwitchboardAmazonIVSLowLatency", targets: ["SwitchboardAmazonIVSLowLatency"]),
+        .library(name: "SwitchboardAmazonIVSRealTime", targets: ["SwitchboardAmazonIVSRealTime"]),
+        .library(name: "SwitchboardVoicemod", targets: ["SwitchboardVoicemod"])
     ],
     dependencies: [
     ],
