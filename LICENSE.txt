@@ -1,16 +1,16 @@
 Synervoz Communications Inc. 
-6 Windermere Drive, 
-Ingleside, ON, Canada, KOC1M0
+100 University Avenue 
+Toronto, ON M5J 1V6
 
 licensing@synervoz.com 
 +1 718 593 4471
 
-This license can be found at https://switchboard.audio/licensing 
+This license can be found at https://switchboard.audio/licensing/
 
 
 SWITCHBOARD SDK MASTER LICENSE AGREEMENT
 
-Effective Date: July 1, 2023
+Effective Date: May 27, 2023
 
 INTRODUCTION
 
@@ -81,14 +81,18 @@ Limited to a maximum of 1,000 app-installs as determined by Synervoz's
 analytics. 
 Synervoz reserves attribution rights including the right to use App 
 Developer's name and logo on its website.
+The Prototyping license is not to be used for products or installations in 
+public venues such as a bar, theater, or conference hall. 
 
-Once an app breaches the 1,000 app-install mark, Synervoz reserves the right 
-to disable usage and the Switchboard SDK may trigger this automatically.
+Once an app breaches the 1,000 app-install mark, or if your product will be 
+installed for use in a public venue, a Commercial License is required. 
+Synervoz reserves the right to disable usage and the Switchboard SDK may 
+trigger this automatically.
 
 Commercial Licenses
-Commercial requirements have licensing fees to be negotiated with Synervoz. 
-You must get in touch via with Synervoz via licensing@synervoz.com if the 
-limitations of the Prototyping License no longer apply. 
+Commercial Licenses currently require licensing fees to be negotiated with 
+Synervoz. You must get in touch with Synervoz via licensing@synervoz.com if 
+the limitations of the Prototyping License no longer apply. 
 
 Example Code License
 Synervoz makes available certain example code and sample apps to illustrate 
@@ -421,7 +425,7 @@ To maintain continued service of the Switchboard SDK under a Prototyping
 License, Licensee agrees to place the following notices in the credits for any 
 Software Application. 
 
-"[Software  Application] uses the Switchboard SDK by Synervoz (Synervoz.com)
+"[Software  Application]  uses the Switchboard SDK by Synervoz (Synervoz.com)
 
 5.3 Marketing. Licensee agrees that Synervoz may refer to Licensee by trade 
 name and trademark, and may briefly describe Licensee's use of the Switchboard 
@@ -632,3 +636,4 @@ any time, either by way of downloading from Synervoz or otherwise provided to
 Licensee, for any development purposes (unless such materials are provided 
 pursuant to a separate license agreement for such materials by Synervoz and/or 
 its affiliates).
+
