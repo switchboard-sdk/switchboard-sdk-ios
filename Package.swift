@@ -22,48 +22,48 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SwitchboardSDK",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/2.2.0/ios/SwitchboardSDK.xcframework.zip",
-            checksum: "7a22f3d7400235280a32854160654d6f911f59ca8af78b2679195aa6f0d394fd"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/beta/2.2.1-beta-5/ios/SwitchboardSDK.xcframework.zip",
+            checksum: "fe0d80bdc136b1daf4b6ee8c6124ca0cc89868492e0ce366e18a1146b35a33e9"
         ),
         .binaryTarget(
             name: "SwitchboardUI",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/2.2.0/ios/SwitchboardUI.xcframework.zip",
-            checksum: "efe9de07a1c20f5729b91fdc1c8cf11e26865265b6d1174df6f1c860feacecd4"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/beta/2.2.1-beta-5/ios/SwitchboardUI.xcframework.zip",
+            checksum: "9f86b529485c131320aab5a4b6184ae35bc544f125022115511835d3673c65df"
         ),
         .binaryTarget(
             name: "SwitchboardAudioEffects",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/2.2.0/ios/SwitchboardAudioEffects.xcframework.zip",
-            checksum: "14d94a041a04c8437a5263dffe9ca27b6e835bd7e67dc62bead4290313e13de5"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/beta/2.2.1-beta-5/ios/SwitchboardAudioEffects.xcframework.zip",
+            checksum: "b59626bd36377dcf8ca7ad95ca1cee6ada7d315cedff04cf588a6e2d7619af06"
         ),
         .binaryTarget(
             name: "SwitchboardAgora",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/2.2.0/ios/SwitchboardAgora.xcframework.zip",
-            checksum: "6f1a4146abc2c92af33ed19a411ebb04bcc7eeb53d10b25e95917b12ee750c3d"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/beta/2.2.1-beta-5/ios/SwitchboardAgora.xcframework.zip",
+            checksum: "79c0dc3a5137ce2c2efec559f93c5b08f669455adfb2bef59b3538f09fe157d2"
         ),
         .binaryTarget(
             name: "SwitchboardRNNoise",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/2.2.0/ios/SwitchboardRNNoise.xcframework.zip",
-            checksum: "bb24a8aba9aabd488ce7560d16b64cfdd634e92328aa0e2986fac8ed9ecb211b"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/beta/2.2.1-beta-5/ios/SwitchboardRNNoise.xcframework.zip",
+            checksum: "cb1d3a0c3bb993fed6ec952d709e4f5c3e0d8db550dc86ec1b4bd1944a2b7455"
         ),
         .binaryTarget(
             name: "SwitchboardSuperpowered",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/2.2.0/ios/SwitchboardSuperpowered.xcframework.zip",
-            checksum: "90f231504972bf318417fa01f34d3f5d6a87131cee808ab67f9b8f69f4f04d87"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/beta/2.2.1-beta-5/ios/SwitchboardSuperpowered.xcframework.zip",
+            checksum: "cd2ed5fc5b2aede65afde4c544f30fb930c17c41f30acc55fd9f9f96c7e1df08"
         ),
         .binaryTarget(
             name: "SwitchboardAmazonIVSLowLatency",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/2.2.0/ios/SwitchboardAmazonIVSLowLatency.xcframework.zip",
-            checksum: "23ba7df102d0a6eda744a2bd0032d7bb3a7c059205890ae99bdfd9fa2f07374a"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/beta/2.2.1-beta-5/ios/SwitchboardAmazonIVSLowLatency.xcframework.zip",
+            checksum: "e21ab0d193afadc95ebd7117b6e384e09e13b6987bb8d99e129f1e619fe2c48c"
         ),
         .binaryTarget(
             name: "SwitchboardAmazonIVSRealTime",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/2.2.0/ios/SwitchboardAmazonIVSRealTime.xcframework.zip",
-            checksum: "7eb838076462bd514422a53157da9c6002f18b527991e7350290e4a29693e490"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/beta/2.2.1-beta-5/ios/SwitchboardAmazonIVSRealTime.xcframework.zip",
+            checksum: "a5a80452c47c66fefc767a6b06ade3e53dee166b5fc6527007b2b4262e91eb48"
         ),
         .binaryTarget(
             name: "SwitchboardVoicemod",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/2.2.0/ios/SwitchboardVoicemod.xcframework.zip",
-            checksum: "64c33f2bd3ce6cc9ea103d5d478d76151f5a128547da9a9e6a5540b30f4b6562"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/beta/2.2.1-beta-5/ios/SwitchboardVoicemod.xcframework.zip",
+            checksum: "f31076e357d36782a4f3970911ea681b7139759bbc5833d9240bce39c2e30159"
         ),
     ]
 )
