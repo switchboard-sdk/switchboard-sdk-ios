@@ -31,77 +31,87 @@ let package = Package(
         .binaryTarget(
             name: "SwitchboardSDK",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardSDK.xcframework.zip",
-            checksum: "6ff6694258e65032475b83ee0dcaa6bdec7fbabdd9fe5fc0923d9c2d1cfecbbd"
+            checksum: "691a325e5bb2e1ff62fdc4573f702c6b4ad1c6b2e9f92a7b800d194d0ae24dd7"
         ),
         .binaryTarget(
             name: "SwitchboardUI",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardUI.xcframework.zip",
-            checksum: "e0deef28fcea575f3e211723f577f3036af9c359bff6365a3bce142ac8f8aa12"
+            checksum: "18afcd1ba59f6c7df9272c3a00c8e039b75ccc79e2798b8c9d767546e9fc352c"
         ),
         .binaryTarget(
             name: "SwitchboardAudioEffects",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardAudioEffects.xcframework.zip",
-            checksum: "c7dbc9e75d0a81bad8a018245ca69836edb513e856aa21a09ad15c1b9e12633a"
+            checksum: "7fa41a5dc68d2425883d1d1a9bcd96eba89d65ca78c73dae0a482df48036aea7"
         ),
         .binaryTarget(
             name: "SwitchboardAgora",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardAgora.xcframework.zip",
-            checksum: "cfba18d4b94db10ddb1342aaa9bcfa569c3cf19ee0f8940b7fabc254ced4e0a0"
+            checksum: "8ea0fa49fc2b24306cbc68cc78d8c3e124728f307182400bca10b11b110a0786"
         ),
         .binaryTarget(
             name: "SwitchboardRNNoise",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardRNNoise.xcframework.zip",
-            checksum: "fa946f1efcafcf1d9867285bffdeb0f7137d7f16f26f351610c28fd7068e6d53"
+            checksum: "5df93555cabef3f888143efb82baba4a10b395906dba2f57f7015611a92adf94"
         ),
         .binaryTarget(
             name: "SwitchboardSuperpowered",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardSuperpowered.xcframework.zip",
-            checksum: "a450577dccbc6dc70d9cce3777082d4a15e0e3ab2b96d1c23b48975026cf822f"
+            checksum: "756b13250d7f4592e69070c3b085452c8f4c56abe0191685c2115d09ba6c54b0"
         ),
         .binaryTarget(
             name: "SwitchboardAmazonIVSLowLatency",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardAmazonIVSLowLatency.xcframework.zip",
-            checksum: "5b5f8a8c2511fdae5884c85f55d731634bd0232480d06e04bb6d08121c4cbc19"
+            checksum: "66ef31af717e2bfc14229d584d6b1692533fff0d525f6fbefe212386f067ba88"
         ),
         .binaryTarget(
             name: "SwitchboardAmazonIVSRealTime",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardAmazonIVSRealTime.xcframework.zip",
-            checksum: "5afc4b7d9a0c097f10bdd6b59b9c8be15fa2ff39babe8ff0754f204e8fd79684"
+            checksum: "04179dacc978a29f56291a0395fe6b31cca2285474d1644f4684d97f4d029fe7"
         ),
         .binaryTarget(
             name: "SwitchboardVoicemod",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardVoicemod.xcframework.zip",
-            checksum: "df8691aabc9bdc51654bbd6fb0451c198a138a0dd449c8e582290abec753bb4d"
+            checksum: "47fe31869be0149f8004be84d8c5d9a0c75eece4ec9cc05ae01409494baf2fd7"
+        ),
+        .binaryTarget(
+            name: "SwitchboardLLM",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardLLM.xcframework.zip",
+            checksum: "135330acd19aa4bc29575755d76e3d41c7a9dc6c9e4d32fa0b6f303de36f4af4"
         ),
         .binaryTarget(
             name: "SwitchboardOnnx",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardOnnx.xcframework.zip",
-            checksum: "24c93d294d3f88ae7e736e37015b5bdff08a18eb24eb798c09df953b718ce1a4"
+            checksum: "1eeb07d0628c283859b2acd1240a04b9b6c0e2b2ccc790b0fe83cae8fac34cfa"
         ),
         .binaryTarget(
             name: "SwitchboardOpenAI",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardOpenAI.xcframework.zip",
-            checksum: "16b13320fbe92929d9fa16cc817ff29dc7b7532ad99c42ef8383b59b70a13e2f"
+            checksum: "f6b3e726c06658eb337eca789833cbdfaae1b8253bcd9b7f6fc9b3723ed9f838"
         ),
         .binaryTarget(
             name: "SwitchboardPicoVoiceSTT",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardPicoVoiceSTT.xcframework.zip",
-            checksum: "2b344ce3e9674319b9b99b3d9e4e6f3c3a9c7b99c6556867e5ebf100d7b20744"
+            checksum: "d5203c0c22420a6844d8736e93743fe6f7362770454d123ec8acc84bdd995b6e"
         ),
         .binaryTarget(
             name: "SwitchboardPinPoint",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardPinPoint.xcframework.zip",
-            checksum: "287a5800f6c607647dca9b9c2d7e85f2e432be01e8c0732cc8d63eb4f24be3f0"
+            checksum: "24a0e35f1563d443a45c5c16e672675abb158589cac7373546740bc5fb818483"
         ),
         .binaryTarget(
             name: "SwitchboardSherpa",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardSherpa.xcframework.zip",
-            checksum: "de38c72c94c9a6a0ed96e3c35e9e232b00d9a75a0338870f300da5dd218fa7dd"
+            checksum: "3fcefff3469069ec96df829719c1faba96abc1d69b9244a67d482cb36bb38471"
         ),
         .binaryTarget(
             name: "SwitchboardSileroVAD",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardSileroVAD.xcframework.zip",
-            checksum: "2cec4a5bf7868a440d2ff993aac676e7360361831d64d3bf89b2917f290d2932"
+            checksum: "116b3985ed56831d2c7846641291b12a17ee71a4d83ae44a01903b87f2f4e582"
+        ),
+        .binaryTarget(
+            name: "SwitchboardWhisper",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardWhisper.xcframework.zip",
+            checksum: "f3540584db1dc0de160433a3a8e0f6a346deb2328579befd3320a7725880597b"
         ),
     ]
 )
