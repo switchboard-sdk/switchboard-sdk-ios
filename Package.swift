@@ -16,8 +16,6 @@ let package = Package(
         .library(name: "SwitchboardLLM", targets: ["SwitchboardLLM"]),
         .library(name: "SwitchboardOnnx", targets: ["SwitchboardOnnx"]),
         .library(name: "SwitchboardOpenAI", targets: ["SwitchboardOpenAI"]),
-        .library(name: "SwitchboardPicoVoiceSTT", targets: ["SwitchboardPicoVoiceSTT"]),
-        .library(name: "SwitchboardPinPoint", targets: ["SwitchboardPinPoint"]),
         .library(name: "SwitchboardRNNoise", targets: ["SwitchboardRNNoise"]),
         .library(name: "SwitchboardSherpa", targets: ["SwitchboardSherpa"]),
         .library(name: "SwitchboardSileroVAD", targets: ["SwitchboardSileroVAD"]),
