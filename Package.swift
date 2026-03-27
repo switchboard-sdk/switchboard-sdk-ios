@@ -89,16 +89,6 @@ let package = Package(
             checksum: "f6b3e726c06658eb337eca789833cbdfaae1b8253bcd9b7f6fc9b3723ed9f838"
         ),
         .binaryTarget(
-            name: "SwitchboardPicoVoiceSTT",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardPicoVoiceSTT.xcframework.zip",
-            checksum: "d5203c0c22420a6844d8736e93743fe6f7362770454d123ec8acc84bdd995b6e"
-        ),
-        .binaryTarget(
-            name: "SwitchboardPinPoint",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardPinPoint.xcframework.zip",
-            checksum: "24a0e35f1563d443a45c5c16e672675abb158589cac7373546740bc5fb818483"
-        ),
-        .binaryTarget(
             name: "SwitchboardSherpa",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/ivannador/swi-6165-upgrade-switchboard-sdk-ios-to-sdk-320/spm/SwitchboardSherpa.xcframework.zip",
             checksum: "3fcefff3469069ec96df829719c1faba96abc1d69b9244a67d482cb36bb38471"
