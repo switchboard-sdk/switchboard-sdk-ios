@@ -20,7 +20,6 @@ let package = Package(
         .library(name: "SwitchboardSherpa", targets: ["SwitchboardSherpa"]),
         .library(name: "SwitchboardSileroVAD", targets: ["SwitchboardSileroVAD"]),
         .library(name: "SwitchboardSuperpowered", targets: ["SwitchboardSuperpowered"]),
-        .library(name: "SwitchboardVoicemod", targets: ["SwitchboardVoicemod"]),
         .library(name: "SwitchboardWhisper", targets: ["SwitchboardWhisper"])
     ],
     dependencies: [
