@@ -3,7 +3,7 @@ Synervoz Communications Inc.
 Toronto, ON M5J 1V6
 
 licensing@synervoz.com
-+1 ‪(437) 562-8482‬
++1 (437) 562-8482
 
 This license can be found at https://switchboard.audio/licensing/
 
@@ -676,5 +676,3 @@ any time, either by way of downloading from Synervoz or otherwise provided to
 Licensee, for any development purposes (unless such materials are provided
 pursuant to a separate license agreement for such materials by Synervoz and/or
 its affiliates).
-
-
