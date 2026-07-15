@@ -13,6 +13,10 @@ let package = Package(
         .library(name: "SwitchboardAmazonIVSLowLatency", targets: ["SwitchboardAmazonIVSLowLatency"]),
         .library(name: "SwitchboardAmazonIVSRealTime", targets: ["SwitchboardAmazonIVSRealTime"]),
         .library(name: "SwitchboardAudioEffects", targets: ["SwitchboardAudioEffects"]),
+        // TODO(SWI-6658): for 3.2.5 change to targets: ["SwitchboardLLM", "llama"]
+        // so the dynamic llama.framework is embedded (SwitchboardLLM.framework loads
+        // @rpath/llama.framework/llama) — otherwise LLM apps dyld-crash at launch.
+        // Requires enabling the llama binaryTarget below.
         .library(name: "SwitchboardLLM", targets: ["SwitchboardLLM"]),
         .library(name: "SwitchboardOnnx", targets: ["SwitchboardOnnx"]),
         .library(name: "SwitchboardOpenAI", targets: ["SwitchboardOpenAI"]),
@@ -21,6 +25,10 @@ let package = Package(
         .library(name: "SwitchboardSileroVAD", targets: ["SwitchboardSileroVAD"]),
         .library(name: "SwitchboardSmartTurn", targets: ["SwitchboardSmartTurn"]),
         .library(name: "SwitchboardSuperpowered", targets: ["SwitchboardSuperpowered"]),
+        // TODO(SWI-6658): for 3.2.5 change to targets: ["SwitchboardWhisper", "whisper"]
+        // so the dynamic whisper.framework is embedded (SwitchboardWhisper.framework loads
+        // @rpath/whisper.framework/whisper) — otherwise Whisper apps dyld-crash at launch.
+        // Requires enabling the whisper binaryTarget below.
         .library(name: "SwitchboardWhisper", targets: ["SwitchboardWhisper"])
     ],
     dependencies: [
@@ -71,6 +79,19 @@ let package = Package(
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardLLM.xcframework.zip",
             checksum: "9a0c3897992f3dd799e4928c4aedaeb3bfa8c6c64846c557a70d89742dcf171f"
         ),
+        // TODO(SWI-6658): enable for 3.2.5. llama.cpp ships as a separate dynamic
+        // framework that SwitchboardLLM.framework loads at runtime
+        // (@rpath/llama.framework/llama); it must be its own binary target so SPM
+        // embeds it, otherwise LLM apps dyld-crash at launch. ggml is bundled inside
+        // llama.framework, so llama is the only extra target needed. Uncomment once the
+        // package-spm fix publishes llama.xcframework.zip to builds/release/3.2.5/spm/,
+        // set the checksum from out/spm/public/llama.xcframework.checksum.txt, and add
+        // "llama" to the SwitchboardLLM product above.
+        // .binaryTarget(
+        //     name: "llama",
+        //     url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/llama.xcframework.zip",
+        //     checksum: "<set from out/spm/public/llama.xcframework.checksum.txt>"
+        // ),
         .binaryTarget(
             name: "SwitchboardOnnx",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardOnnx.xcframework.zip",
@@ -96,6 +117,18 @@ let package = Package(
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardWhisper.xcframework.zip",
             checksum: "9e857fa9a7c676a24ad3be7d7689779475bfc4b053409a5b4be8fb5a93681e08"
         ),
+        // TODO(SWI-6658): enable for 3.2.5. whisper.cpp ships as a separate dynamic
+        // framework that SwitchboardWhisper.framework loads at runtime
+        // (@rpath/whisper.framework/whisper); it must be its own binary target so SPM
+        // embeds it, otherwise Whisper apps dyld-crash at launch. Uncomment once the
+        // package-spm fix publishes whisper.xcframework.zip to builds/release/3.2.5/spm/,
+        // set the checksum from out/spm/public/whisper.xcframework.checksum.txt, and add
+        // "whisper" to the SwitchboardWhisper product above.
+        // .binaryTarget(
+        //     name: "whisper",
+        //     url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/whisper.xcframework.zip",
+        //     checksum: "<set from out/spm/public/whisper.xcframework.checksum.txt>"
+        // ),
         .binaryTarget(
             name: "SwitchboardSmartTurn",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardSmartTurn.xcframework.zip",
