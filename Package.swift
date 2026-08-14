@@ -13,11 +13,9 @@ let package = Package(
         .library(name: "SwitchboardAmazonIVSLowLatency", targets: ["SwitchboardAmazonIVSLowLatency"]),
         .library(name: "SwitchboardAmazonIVSRealTime", targets: ["SwitchboardAmazonIVSRealTime"]),
         .library(name: "SwitchboardAudioEffects", targets: ["SwitchboardAudioEffects"]),
-        // TODO(SWI-6658): for 3.2.5 change to targets: ["SwitchboardLLM", "llama"]
-        // so the dynamic llama.framework is embedded (SwitchboardLLM.framework loads
-        // @rpath/llama.framework/llama) — otherwise LLM apps dyld-crash at launch.
-        // Requires enabling the llama binaryTarget below.
-        .library(name: "SwitchboardLLM", targets: ["SwitchboardLLM"]),
+        // llama.framework is loaded at runtime by SwitchboardLLM.framework
+        // (@rpath/llama.framework/llama), so it must be embedded alongside it.
+        .library(name: "SwitchboardLLM", targets: ["SwitchboardLLM", "llama"]),
         .library(name: "SwitchboardOnnx", targets: ["SwitchboardOnnx"]),
         .library(name: "SwitchboardOpenAI", targets: ["SwitchboardOpenAI"]),
         .library(name: "SwitchboardRNNoise", targets: ["SwitchboardRNNoise"]),
@@ -25,114 +23,103 @@ let package = Package(
         .library(name: "SwitchboardSileroVAD", targets: ["SwitchboardSileroVAD"]),
         .library(name: "SwitchboardSmartTurn", targets: ["SwitchboardSmartTurn"]),
         .library(name: "SwitchboardSuperpowered", targets: ["SwitchboardSuperpowered"]),
-        // TODO(SWI-6658): for 3.2.5 change to targets: ["SwitchboardWhisper", "whisper"]
-        // so the dynamic whisper.framework is embedded (SwitchboardWhisper.framework loads
-        // @rpath/whisper.framework/whisper) — otherwise Whisper apps dyld-crash at launch.
-        // Requires enabling the whisper binaryTarget below.
-        .library(name: "SwitchboardWhisper", targets: ["SwitchboardWhisper"])
+        // whisper.framework is loaded at runtime by SwitchboardWhisper.framework
+        // (@rpath/whisper.framework/whisper), so it must be embedded alongside it.
+        .library(name: "SwitchboardWhisper", targets: ["SwitchboardWhisper", "whisper"])
     ],
     dependencies: [
     ],
     targets: [
         .binaryTarget(
             name: "SwitchboardSDK",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardSDK.xcframework.zip",
-            checksum: "c295349c86d4daf71532da453c6d93a355ae4b787ebef6f5f46e6884578d1e1b"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardSDK.xcframework.zip",
+            checksum: "d0fb418395578d0c2964e366755272b3238a33611311a502bb2d08a400f75a46"
         ),
         .binaryTarget(
             name: "SwitchboardUI",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardUI.xcframework.zip",
-            checksum: "d3d78ed97e827d602a3c3fb85755df210214361a3d8212dec2c6f0d31f84b613"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardUI.xcframework.zip",
+            checksum: "e4792a4505118fff5bf15c21eb917b3d3f26fe6752f4754be0123f1605d728e9"
         ),
         .binaryTarget(
             name: "SwitchboardAudioEffects",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardAudioEffects.xcframework.zip",
-            checksum: "7b825a528d20c21613ff21b6d4e36b90eec0ba371d5de5b4ac4e64c739885179"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardAudioEffects.xcframework.zip",
+            checksum: "17310d0ac274b5ed4f96c46ace90b7de65ae670bbb84f1c08726f8e88eb54367"
         ),
         .binaryTarget(
             name: "SwitchboardAgora",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardAgora.xcframework.zip",
-            checksum: "646a1b7d8e9c9bc164ceea347e9107c3ecf606280ce85008996c3e9ed937f19f"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardAgora.xcframework.zip",
+            checksum: "13d908cdcc29f194f52b7f7cd85a11986c3a07f6afaf78b7c757a03d03d4c985"
         ),
         .binaryTarget(
             name: "SwitchboardRNNoise",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardRNNoise.xcframework.zip",
-            checksum: "cf46295d0d39dad3690feefe31aaba05e5666c1d6e865fdddad323e0eb0f7fda"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardRNNoise.xcframework.zip",
+            checksum: "4879f6deb0c7ce703cdd2f88bf2bfa1f92adb21687577f312455b1661f018565"
         ),
         .binaryTarget(
             name: "SwitchboardSuperpowered",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardSuperpowered.xcframework.zip",
-            checksum: "7dcf0a33e0a4d6b34f14b56f305ce25d008f9b03653ffba4cb1e1188d5c91643"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardSuperpowered.xcframework.zip",
+            checksum: "b4ec949a290938dab0314fd2ab3bee47858766379cc6890e4417f22cf5775746"
         ),
         .binaryTarget(
             name: "SwitchboardAmazonIVSLowLatency",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardAmazonIVSLowLatency.xcframework.zip",
-            checksum: "e763feb1659153a406da04d341cf854fa06fba935e0e187d5120237de369ed4d"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardAmazonIVSLowLatency.xcframework.zip",
+            checksum: "5b07bc2491b17c14159a6ebca03182a297aafa7d504b153eeb8e1850e12accee"
         ),
         .binaryTarget(
             name: "SwitchboardAmazonIVSRealTime",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardAmazonIVSRealTime.xcframework.zip",
-            checksum: "3d1587df0f2e77ab1e28b475c981b578e6027a87bff9e1db04ce99bd16a8dc8e"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardAmazonIVSRealTime.xcframework.zip",
+            checksum: "c25c7892d78bc6663d06b4abd797fb135c54196250308e63eb5f99612a65d074"
         ),
         .binaryTarget(
             name: "SwitchboardLLM",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardLLM.xcframework.zip",
-            checksum: "9a0c3897992f3dd799e4928c4aedaeb3bfa8c6c64846c557a70d89742dcf171f"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardLLM.xcframework.zip",
+            checksum: "1fe084c5b4896e418d65deecec2a91c0ccfce5e21768059ac4b1e403910cc203"
         ),
-        // TODO(SWI-6658): enable for 3.2.5. llama.cpp ships as a separate dynamic
-        // framework that SwitchboardLLM.framework loads at runtime
-        // (@rpath/llama.framework/llama); it must be its own binary target so SPM
-        // embeds it, otherwise LLM apps dyld-crash at launch. ggml is bundled inside
-        // llama.framework, so llama is the only extra target needed. Uncomment once the
-        // package-spm fix publishes llama.xcframework.zip to builds/release/3.2.5/spm/,
-        // set the checksum from out/spm/public/llama.xcframework.checksum.txt, and add
-        // "llama" to the SwitchboardLLM product above.
-        // .binaryTarget(
-        //     name: "llama",
-        //     url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/llama.xcframework.zip",
-        //     checksum: "<set from out/spm/public/llama.xcframework.checksum.txt>"
-        // ),
+        // llama.cpp ships as a separate dynamic framework that SwitchboardLLM.framework
+        // loads at runtime (@rpath/llama.framework/llama), so it needs its own binary
+        // target for SPM to embed it. ggml is bundled inside llama.framework.
+        .binaryTarget(
+            name: "llama",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/llama.xcframework.zip",
+            checksum: "9f387d3747835bc073448fd4689897908a5c23dfad8dbedd33e7ce5be7d1be97"
+        ),
         .binaryTarget(
             name: "SwitchboardOnnx",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardOnnx.xcframework.zip",
-            checksum: "420dc1ae43cadf7a9290b1b23260983b62655f80c91ff32a4249376000153234"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardOnnx.xcframework.zip",
+            checksum: "e29de52e8dee6f9b33cc8f5a507e933bafe1b5cdbb1cc9bc39889d80f5fff9d8"
         ),
         .binaryTarget(
             name: "SwitchboardOpenAI",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardOpenAI.xcframework.zip",
-            checksum: "f344c196ab5020cdeb43f034b9f5dcd3141d7e818335fc3c6509ef12d44d6872"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardOpenAI.xcframework.zip",
+            checksum: "20cebb3ae82104325ad72b9cb6ea47a173e9d1641b8cce0d89a21b91bdebec50"
         ),
         .binaryTarget(
             name: "SwitchboardSherpa",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardSherpa.xcframework.zip",
-            checksum: "02f5ad15dc9672335cf353eecf92015c271c054bc7885fc46f57412169c387f8"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardSherpa.xcframework.zip",
+            checksum: "8f42df9ef390d220442f64ba8813f38cbb6969e04d269ae3ba029b356cdcba1d"
         ),
         .binaryTarget(
             name: "SwitchboardSileroVAD",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardSileroVAD.xcframework.zip",
-            checksum: "d1e2b13a6c955588edbbcc7fbcd6aa2c4d5c85bd82b4de8fa4745121a6765d7f"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardSileroVAD.xcframework.zip",
+            checksum: "1a6dbd201a8e7a00d22fbbc0067f9ecc803bb150786dea0f2a66fb740fd537ae"
         ),
         .binaryTarget(
             name: "SwitchboardWhisper",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardWhisper.xcframework.zip",
-            checksum: "9e857fa9a7c676a24ad3be7d7689779475bfc4b053409a5b4be8fb5a93681e08"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardWhisper.xcframework.zip",
+            checksum: "3586c044a9a19a5eff6a8c2a49c643481b9ce037f9a050279fd384f3e22170b3"
         ),
-        // TODO(SWI-6658): enable for 3.2.5. whisper.cpp ships as a separate dynamic
-        // framework that SwitchboardWhisper.framework loads at runtime
-        // (@rpath/whisper.framework/whisper); it must be its own binary target so SPM
-        // embeds it, otherwise Whisper apps dyld-crash at launch. Uncomment once the
-        // package-spm fix publishes whisper.xcframework.zip to builds/release/3.2.5/spm/,
-        // set the checksum from out/spm/public/whisper.xcframework.checksum.txt, and add
-        // "whisper" to the SwitchboardWhisper product above.
-        // .binaryTarget(
-        //     name: "whisper",
-        //     url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/whisper.xcframework.zip",
-        //     checksum: "<set from out/spm/public/whisper.xcframework.checksum.txt>"
-        // ),
+        // whisper.cpp ships as a separate dynamic framework that
+        // SwitchboardWhisper.framework loads at runtime (@rpath/whisper.framework/whisper),
+        // so it needs its own binary target for SPM to embed it.
+        .binaryTarget(
+            name: "whisper",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/whisper.xcframework.zip",
+            checksum: "cb8fe6548516326fd7f5b10449741f98d271cc6b1c095118d0f7d3e2e53a9115"
+        ),
         .binaryTarget(
             name: "SwitchboardSmartTurn",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.4/spm/SwitchboardSmartTurn.xcframework.zip",
-            checksum: "619406b09d3ad5ad66e714cef7f086313398eff803c021f0e7dfb1900cfbe99a"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.5/spm/SwitchboardSmartTurn.xcframework.zip",
+            checksum: "44ed824a91b73ea63b25b07b5fcfdaebb9039f0f6fea36ea917db9eba0690f64"
         ),
     ]
 )
