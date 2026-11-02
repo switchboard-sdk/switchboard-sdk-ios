@@ -108,7 +108,7 @@ let package = Package(
         .binaryTarget(
             name: "SwitchboardWhisper",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.8/spm/ios/SwitchboardWhisper.xcframework.zip",
-            checksum: "49c04b44c016514fe4ae10dfb910c2630368de5e7f5ec89b11c852670503c055"
+            checksum: "502154512e7e2bda46fa061e8d07f982c2cd34c382cd2073a14360ba27e7426d"
         ),
         // whisper.cpp ships as a separate dynamic framework that
         // SwitchboardWhisper.framework loads at runtime (@rpath/whisper.framework/whisper),
@@ -116,7 +116,7 @@ let package = Package(
         .binaryTarget(
             name: "whisper",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.8/spm/ios/whisper.xcframework.zip",
-            checksum: "502154512e7e2bda46fa061e8d07f982c2cd34c382cd2073a14360ba27e7426d"
+            checksum: "e09a1ea9d1de02aa55f27af9e7196193d5626269851b9416d4a69ca54dfcca2e"
         ),
         .binaryTarget(
             name: "SwitchboardSmartTurn",
